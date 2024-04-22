@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>@defrosted_</title>
+</head>
+<body>
+  <div>
+    <h1 class="word"></h1>
+  </div>
+  <script>
+    const myArray = [
+      "Don't send me your tape", 
+      "It won't sell", 
+      "Yo, I'm sorry hoe", 
+      "That I couldn't be your romeo",
+      "Cause you was too focused on Julio",
+      "And now I'm too focused on getting dough"
+    ];
+
+    const delay = [50, 500, 190, 150, 500, 50, 50];
+
+    function sleep(ms) {
+      return new Promise(resolve => setTimeout(resolve, ms));
+    }
+  
+    (async () => {
+      for (let i = 0; i < myArray.length; i++) {
+        let accumulation = "";
+  
+        for (let j = 0; j < myArray[i].length; j++) {
+          accumulation += myArray[i][j];
+          document.querySelector(".word").innerHTML = accumulation;
+          await sleep(55); // Add a 10-second delay
+        }
+        await sleep(delay[i]); 
+      }
+    })();
+  </script>
+</body>
+</html>
