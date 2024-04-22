@@ -22,13 +22,6 @@ A computer
 
 2. Then run index.html, do not delete any contents
 
-## Built With
-
-  - [AnimeJS](https://animejs.com/) - Open source animation library for JS
-    
-  - [Creative Commons](https://creativecommons.org/) - Used to choose
-    the license
-
 ## Contributing
 
 Contributions are temporarily closed.
