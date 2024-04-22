@@ -3,7 +3,7 @@
 
 Made with HTML, CSS and JS
 
-https://defrostedjpg.github.io/Valentines-day-website/Website/
+https://defrostedjpg.github.io/Song-lyrics/
 
 ## How to run locally
 
